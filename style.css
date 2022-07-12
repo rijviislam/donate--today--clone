@@ -9,6 +9,9 @@ a {
 body {
     font-family: 'Poppins', sans-serif
 }
+.section {
+    padding: 3rem 10rem;
+}
 .hero__section {
     width: 100%;
     min-height: 100vh;
@@ -67,4 +70,58 @@ body {
     font-weight: 500;
     color: #fff;
     border-radius: 5px;
+}
+.section__content {
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section__title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.section__summery {
+    font-size: 18px;
+    color: gray;
+    width: 50%;
+}
+.info__section .section__items {
+    width: 100%;
+    padding: 1rem 0;
+}
+.info__section .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.info__section .item{
+    min-height: 300px;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #eee;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info__section .item:nth-child(1) {
+    background-color: rgb(187, 221, 233);
+}
+.info__section .item:nth-child(2) {
+    background-color: rgb(235, 206, 210);
+}
+.info__section .item:nth-child(3) {
+    background-color: rgb(253, 199, 177);
+}
+.info__section .item__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.info__section .item__summery {
+ color: gray;
 }
