@@ -209,3 +209,52 @@ a {
     width: 100%;
     object-fit: cover;
 }
+.subcription__form {
+    width: 100%;
+    margin: 3rem 0;
+    padding: 5rem 0;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcription__form .input__group{
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.subcription__form .input__group input,button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.subcription__form .input__group input {
+   background-color: #ccc;
+}
+.subcription__form .input__group button {
+    background-color: rgb(253, 89, 30);
+    color: #FFF;
+
+}
+.footre__container {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(15, 15, 43);
+    color: #fff;
+}
+.footer__title {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: italic;
+    color: rgb(253, 89, 30);
+}
+.footer__text {
+    color: #eee;
+}
