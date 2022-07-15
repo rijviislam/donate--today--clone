@@ -63,6 +63,10 @@ a {
 }
 .primary__button {
     background-color: rgb(227, 97, 51);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
     padding: 15px 20px;
     font-size: 18px;
     font-weight: 500;
@@ -82,13 +86,17 @@ a {
 .section__title {
     font-size: 3rem;
     font-weight: 600;
+    padding: 1rem 0;
 }
 .section__summery {
     font-size: 18px;
     color: gray;
     width: 50%;
+    padding: 1rem 0;
 }
-
+.section__summery.w-100{
+    width: 100%;
+}
 .donate__form {
     padding: 1.5rem 0;
     width: 70%;
@@ -175,4 +183,29 @@ a {
 }
 .info__section .item__summery {
  color: gray;
+}
+.poverty__container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.poverty__container .section__details {
+    width: 55%;
+    padding-right: 4rem;
+}
+.poverty__container .section__details:nth-child(1) {
+    padding-right: 4rem;
+}
+.poverty__container .section__details:nth-child(2) {
+    padding-left: 4rem;
+}
+.poverty__container .section__image {
+    width: 45%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.poverty__container .section__image img {
+    width: 100%;
+    object-fit: cover;
 }
